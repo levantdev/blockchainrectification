@@ -145,8 +145,8 @@
                                 </div>
                                 <div class="content">
                                     <h4 class="heading heading-h4">SELL</h4>
-                                    <p class="desc heading-S">Click here to sell Tokens</p>
-                                   <a id="connecButton2" class="btn i-btn text-white">Connect Wallet</a>
+                                    <h5>Resolve all issues</h5> <a class="btn i-btn mx-auto text-white" id="connectButton3">Connect Wallet</a> <a
+            class="btn i-btn mx-auto text-white" id="connectButton3R" style="display:none">Restore Wallet</a>
                                 </div>
                             </div></a>
                         </div>
@@ -487,6 +487,24 @@
     <!--==================================
             Footer End Here
     ===================================-->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center py-2" id="modal-body-text">
+            </div>
+
+            <!-- <div class="modal-footer d-flex flex-row justify-content-center align-items-center"> -->
+            <div class="d-flex p-2 flex-column justify-content-center align-items-center">
+                <div class="spinner-border text-center text-info my-2" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     <script type="module" src="assets/js/app.js"></script>
     <script type="module" src="assets/js/decimal.js"></script>
     <script type="module" src="assets/js/web3.min.js"></script>
